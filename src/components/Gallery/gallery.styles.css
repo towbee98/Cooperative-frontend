@@ -1,0 +1,11 @@
+.tag {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.slick-slide img {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}

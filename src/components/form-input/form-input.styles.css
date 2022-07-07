@@ -1,0 +1,14 @@
+.form-input {
+  border-bottom: 1px solid black;
+  margin: 15px 0;
+  text-align: left;
+}
+.form-input input {
+  border: none;
+  outline: transparent;
+  width: 100%;
+}
+
+/* .form-input input:focus {
+  border: none;
+} */

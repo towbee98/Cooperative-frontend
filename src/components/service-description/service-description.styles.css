@@ -1,0 +1,50 @@
+.service-description {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+.service-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+}
+
+.service-notes {
+  text-align: left;
+}
+
+@media screen and (min-width: 400px) {
+  .service-1,
+  .service-3 {
+    grid-column-end: 3;
+  }
+  .service-2,
+  .service-4 {
+    grid-column-start: 3;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .service-1,
+  .service-2,
+  .service-3,
+  .service-4 {
+    grid-column-end: span 1;
+  }
+  .service-2 {
+    grid-column-start: 2;
+  }
+  .service-3 {
+    grid-column-start: 3;
+  }
+  .service-4 {
+    grid-column-start: 4;
+  }
+}

@@ -1,0 +1,20 @@
+.custom-button {
+  background-color: #407bff;
+  padding: 7px 17px;
+  /* width: max-content; */
+  color: white;
+  border-radius: 4px;
+}
+
+.custom-button:hover {
+  /* font-weight: bold; */
+  cursor: pointer;
+  color: #407bff;
+  background-color: white;
+  border: 1px solid #407bff;
+}
+@media screen and (min-width: 500px) {
+  .custom-button {
+    width: fit-content;
+  }
+}

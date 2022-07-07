@@ -1,0 +1,21 @@
+.admin-summary-container {
+  grid-column-start: 2;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 10px;
+}
+.admin-summary-container h3 {
+  width: 100%;
+  border-bottom: 0;
+  text-align: left;
+  margin-top: 0;
+  padding: 3px 0 0 3px;
+}
+
+@media screen and (min-width: 825px) {
+  .admin-summary-container {
+    margin: 0;
+  }
+}

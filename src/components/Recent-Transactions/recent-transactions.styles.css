@@ -1,0 +1,9 @@
+.MuiTableContainer-root {
+  margin: 10px 0;
+}
+@media screen and (min-width: 830px) {
+  .MuiTableContainer-root {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}

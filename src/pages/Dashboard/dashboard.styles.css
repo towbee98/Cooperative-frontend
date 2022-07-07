@@ -1,0 +1,14 @@
+.dashboard {
+  margin: 90px 15px 5px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 830px) {
+  .dashboard {
+    display: grid;
+    grid-template-columns: 17% 80%;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,44 @@
+.recent-transaction-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 1px 1px rgba(216, 216, 216, 0.8),
+    -1px -1px 1px 1px rgb(216, 216, 216, 0.8);
+  border-radius: 10px;
+  padding: 5px 10px;
+  min-height: 380px;
+  margin-top: 10px;
+}
+
+.recent-transaction-container h5,
+.recent-transaction-container h6 {
+  margin-top: 7px;
+  text-align: left;
+}
+
+/* .recent-transaction-details {
+  border-top: 1px solid black;
+} */
+
+.recent-data {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 15px;
+  justify-items: flex-start;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.recent-data em {
+  font-weight: normal;
+}
+
+@media screen and (min-width: 390px) {
+  .recent-data {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media screen and (min-width: 830px) {
+  .recent-transaction-container {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 15px;
+  background-color: #407bff;
+  bottom: 0;
+  font-weight: bold;
+  font-size: 0.65rem;
+  color: white;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+}

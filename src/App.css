@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+h2 {
+  border-bottom: 3px solid black;
+  padding-bottom: 2px;
+  width: max-content;
+  text-align: center;
+}

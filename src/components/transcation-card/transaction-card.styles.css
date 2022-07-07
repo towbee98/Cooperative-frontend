@@ -1,0 +1,75 @@
+.transaction-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* max-width: 230px; */
+  width: 90%;
+  height: 120px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 5px;
+  margin: 10px 5px 20px 5px;
+  /* font-weight: bold; */
+  box-shadow: 0 5px 3px 0 rgba(216, 216, 216, 0.9);
+}
+.total-share-card {
+  background-image: url("../../../public/wave\ \(1\).svg");
+  background-color: hsl(215, 71%, 51%);
+}
+.loan-balance-card {
+  background-image: url("../../../public/loan-balance.svg");
+  background-color: hsl(347, 87%, 66%);
+}
+.loan-card {
+  background-image: url("../../../public/loan.svg");
+  background-color: #10a1dd;
+}
+.loan-interest-card {
+  background-image: url("../../../public/loan-interest.svg");
+  background-color: #02c8aa;
+}
+.total-savings-card {
+  background-color: #196f9d;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  /* display: flex;
+  flex-direction: column; */
+  /* padding: auto; */
+  /* justify-content: flex-start; */
+  vertical-align: top;
+  width: auto;
+  height: auto;
+  /* margin: 10px; */
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px 5px 0 0;
+}
+.transaction-card div:first-child {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.transaction-card div:last-child {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+@media screen and (min-width: 582px) {
+  .total-savings-card {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: 0;
+    border-radius: 5px 0 0 5px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 830px) {
+  .transaction-card {
+    margin-bottom: 5px;
+  }
+  .total-savings-card {
+    margin: 0;
+  }
+}

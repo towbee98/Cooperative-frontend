@@ -1,0 +1,15 @@
+.all-transaction-container {
+  margin: 10px 3px;
+}
+
+@media screen and (min-width: 830px) {
+  .all-transaction-container {
+    margin: 0;
+  }
+  .all-transactions {
+    margin: 0;
+    grid-column-start: 2;
+    height: 337px;
+    /* grid-column-end: 3; */
+  }
+}

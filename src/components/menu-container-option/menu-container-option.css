@@ -1,0 +1,38 @@
+.menu-container-option {
+  margin: 1px 0;
+  padding: 7px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  /* width: 100%; */
+}
+.menu-container-option:hover,
+.menu-container-option:focus {
+  cursor: pointer;
+  background-color: #979696c7;
+}
+
+div[class="menu-container-option active"] {
+  border-left: 3px solid #407bff;
+  background-color: rgba(218, 218, 218, 0.2);
+
+  box-sizing: border-box;
+}
+
+.menu-option-logo {
+  margin-left: 14px;
+}
+
+.title {
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin: 0 10px;
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 830px) {
+  .menu-container-option {
+    width: 100%;
+  }
+}
