@@ -6,7 +6,9 @@ import { HashLink } from "react-router-hash-link";
 const Header = ({ click, handleClick }) => {
   return (
     <div className="header">
-      <h2 className="logo">PV</h2>
+      <div className="logo">
+        <img src="/cooperative-icon.png" alt="cooperative-logo" />
+      </div>
       <nav>
         <ul className="options">
           <li className="active">
